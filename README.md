@@ -1,26 +1,16 @@
-# laravel-template-name
+# Root Price List
 
-laravel-template-description
+ 
 
-[![Style checks](https://github.com/mloru/laravel-template/actions/workflows/style-checks.yml/badge.svg)](https://github.com/mloru/laravel-template/actions?query=workflow%3Astyle-checks+branch%3Adevelop)
-[![Security checks](https://github.com/mloru/laravel-template/actions/workflows/security-checks.yml/badge.svg)](https://github.com/mloru/laravel-template/actions?query=workflow%3Asecurity-checks+branch%3Adevelop)
-[![Tests](https://github.com/mloru/laravel-template/actions/workflows/tests.yml/badge.svg)](https://github.com/mloru/laravel-template/actions?query=workflow%3Atests+branch%3Adevelop)
+[![Style checks](https://github.com/mloru/root-price-list/actions/workflows/style-checks.yml/badge.svg)](https://github.com/mloru/root-price-list/actions?query=workflow%3Astyle-checks+branch%3Adevelop)
+[![Security checks](https://github.com/mloru/root-price-list/actions/workflows/security-checks.yml/badge.svg)](https://github.com/mloru/root-price-list/actions?query=workflow%3Asecurity-checks+branch%3Adevelop)
+[![Tests](https://github.com/mloru/root-price-list/actions/workflows/tests.yml/badge.svg)](https://github.com/mloru/root-price-list/actions?query=workflow%3Atests+branch%3Adevelop)
 
-<!--delete-->
----
-This repo can be used to scaffold a new Laravel project. Follow these steps to get started:
 
-1. Press the `Use template` button at the top of this repo to create a new repo with the contents of this skeleton.
-2. Run `php init.php` to run a script that will replace all placeholders throughout all the files. It also create
-   a `.env` file.
-3. Have fun with your new Laravel project.
-
----
-<!--/delete-->
 
 ## Description
 
-Laravel template to boot a fresh new Laravel project in seconds.
+Simple project to display and manage the Root Club price list.
 
 ## Startup
 

@@ -1,10 +1,10 @@
 {
-    "name": "mloru/laravel-template",
+    "name": "mloru/root-price-list",
     "type": "project",
-    "description": "Template repository for a fresh new Laravel project.",
+    "description": "Simple project to display and manage the Root Club price list.",
     "support": {
-        "issues": "https://github.com/mloru/laravel-template/issues",
-        "source": "https://github.com/mloru/laravel-template"
+        "issues": "https://github.com/mloru/root-price-list/issues",
+        "source": "https://github.com/mloru/root-price-list"
     },
     "keywords": [
         "laravel",
