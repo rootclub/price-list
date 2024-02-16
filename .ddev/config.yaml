@@ -7,8 +7,9 @@ xdebug_enabled: false
 additional_hostnames: []
 additional_fqdns: []
 database:
-    type: mariadb
-    version: "10.4"
+  type: mariadb
+  version: "10.4"
+host_db_port: "32770"
 use_dns_when_possible: true
 composer_version: "2"
 web_environment: []
