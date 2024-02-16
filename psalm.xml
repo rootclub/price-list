@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<psalm
+    errorLevel="7"
+    resolveFromConfigFile="true"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="https://getpsalm.org/schema/config"
+    xsi:schemaLocation="https://getpsalm.org/schema/config vendor/vimeo/psalm/config.xsd"
+    findUnusedBaselineEntry="true"
+    findUnusedCode="false"
+>
+    <projectFiles>
+        <directory name="app"/>
+        <directory name="bootstrap"/>
+        <directory name="config"/>
+        <directory name="database"/>
+        <directory name="routes"/>
+        <directory name="tests"/>
+        <ignoreFiles>
+            <directory name="vendor"/>
+            <file name="routes/console.php"/>
+        </ignoreFiles>
+    </projectFiles>
+
+    <plugins>
+        <pluginClass class="Psalm\LaravelPlugin\Plugin"/>
+    </plugins>
+
+    <issueHandlers>
+        <InvalidScope>
+            <errorLevel type="suppress">
+                <directory name="tests"/>
+            </errorLevel>
+        </InvalidScope>
+    </issueHandlers>
+</psalm>
