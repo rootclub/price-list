@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Cknow\Money\Casts\MoneyDecimalCast;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
@@ -16,7 +17,7 @@ final class Product extends Model
      * {@inheritdoc}
      */
     protected $casts = [
-        'price' => 'float',
+        'price' => MoneyDecimalCast::class . ':EUR,true',
     ];
 
     /**

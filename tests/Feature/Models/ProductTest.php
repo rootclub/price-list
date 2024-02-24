@@ -3,6 +3,7 @@
 namespace Tests\Feature\Models;
 
 use App\Models\Product;
+use Cknow\Money\Money;
 use Illuminate\Database\Eloquent\Collection;
 
 /**
@@ -36,7 +37,6 @@ test('it can be persisted', function () {
         expect($product->price)
             ->not()
             ->toBeNull()
-            ->toBeFloat()
-            ->toBeGreaterThanOrEqual(0);
+            ->toBeInstanceOf(Money::class);
     }
 });
