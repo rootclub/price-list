@@ -1,4 +1,4 @@
-name: laravel-template
+name: root-price-list
 type: laravel
 docroot: public
 php_version: "8.3"
