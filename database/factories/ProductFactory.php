@@ -3,6 +3,7 @@
 namespace Database\Factories;
 
 use App\Models\Product;
+use Cknow\Money\Money;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -29,9 +30,11 @@ class ProductFactory extends Factory
         return [
             'name' => fake()->word(),
 
-            'price' => fake()->randomFloat(
-                nbMaxDecimals: 2,
-                max: 100
+            'price' => Money::EUR(
+                fake()->randomFloat(
+                    nbMaxDecimals: 2,
+                    max: 100
+                )
             ),
         ];
     }
