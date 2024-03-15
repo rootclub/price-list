@@ -18,6 +18,12 @@ uses(
     TestCase::class,
     LazilyRefreshDatabase::class
 )
+    ->in('Unit');
+
+uses(
+    TestCase::class,
+    LazilyRefreshDatabase::class
+)
     ->in('Feature');
 
 /*

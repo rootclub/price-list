@@ -1,10 +1,10 @@
 {
-    "name": "mloru/root-price-list",
+    "name": "rootclub/price-list",
     "type": "project",
     "description": "Simple project to display and manage the Root Club price list.",
     "support": {
-        "issues": "https://github.com/mloru/root-price-list/issues",
-        "source": "https://github.com/mloru/root-price-list"
+        "issues": "https://github.com/rootclub/price-list/issues",
+        "source": "https://github.com/rootclub/price-list"
     },
     "keywords": [
         "laravel",
@@ -19,6 +19,7 @@
     "require": {
         "php": "^8.3",
         "ext-readline": "*",
+        "cknow/laravel-money": "^7.2",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.3",
