@@ -12,7 +12,7 @@ use Illuminate\Database\Eloquent\Collection;
 const MODELS_COUNT = 3;
 
 test('it can be persisted', function () {
-    /** @var Collection<Product, int> $products */
+    /** @var Collection<int, Product> $products */
     $products = Product::factory()
         ->count(MODELS_COUNT)
         ->create();
